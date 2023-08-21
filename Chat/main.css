@@ -1,0 +1,59 @@
+body {
+  background-color: hsl(190, 8%, 15%);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  }
+
+input[type=text] {
+  width: 80%;
+  border: 1px solid lightseagreen;
+  padding: 5px 10px;
+color: white;
+  font-size: 16px;
+font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    background-color: #333;
+    margin-right: 10px;
+}
+
+#formChat {
+  display: flex;
+  align-items: center;
+  margin-top: 1cm;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button {
+  background-color: #3a7175;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+button:hover {background-color: #e7e7e7;}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#logoBanner {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1cm;
+}
